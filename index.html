@@ -101,13 +101,16 @@
         <section id="home" class="section" tabindex="-1">
           <div class="row">
             <div class="col-md-4 order-1 order-md-2 text-center">
-              <img 
-                src="image/profile.webp" 
-                sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px" 
-                alt="Mostafa Raihan" 
-                class="profile" 
-                loading="lazy" 
-              />
+             <img 
+                  src="image/profile.webp" 
+                  srcset="image/profile-400.webp 400w, image/profile-800.webp 800w, image/profile-1200.webp 1200w"
+                  sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px" 
+                  alt="Mostafa Raihan" 
+                  title="Mostafa Raihan | Web Developer" 
+                  width="400" height="400"
+                  class="profile" 
+                  loading="lazy" 
+                />
             </div>
             <div class="col-md-7 order-2 order-md-1">
               <div class="hometext">
@@ -273,4 +276,5 @@
   
 </body>
 </html>
+
 

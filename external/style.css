@@ -396,10 +396,9 @@ section {
     font-size: 25px;
   }
   .socal {
-    font-size: 25px;
+    font-size: 20px;
   }
 
-  
 #ho{
   padding-right:0px;
 }
@@ -460,7 +459,7 @@ section {
     font-size: 25px;
   }
   .socal {
-    font-size: 20px;
+    font-size: 15px;
   }
   .sidebar .nav li a span {
     display: none;
@@ -502,5 +501,6 @@ section {
   font-size: 20px;
 }
 }
+
 
 

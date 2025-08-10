@@ -115,6 +115,9 @@ body {
   border-radius: 8px;
 }
 
+.name{
+  font-family:'Courier New', Courier, monospace;
+}
 /* Main content */
 .content {
   flex-grow: 1;
@@ -393,7 +396,7 @@ section {
     font-size: 25px;
   }
   .socal {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   
@@ -415,6 +418,9 @@ section {
 
 #co{
   padding-right: 0px;
+}
+.sqlite{
+  display: none;
 }
 }
 
@@ -454,7 +460,7 @@ section {
     font-size: 25px;
   }
   .socal {
-    font-size: 50px;
+    font-size: 33px;
   }
   .sidebar .nav li a span {
     display: none;
@@ -469,7 +475,9 @@ section {
     border-radius: 6px;
     text-align: center;
   }
-
+.sqlite{
+  display: none;
+}
   
 #ho{
   padding-right:0px;
@@ -489,5 +497,8 @@ section {
 
 #co{
   padding-right: 0px;
+}
+.psql{
+  font-size: 20px;
 }
 }

@@ -252,7 +252,7 @@ section {
 
 /* Social links */
 .socal {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .socal a {
@@ -396,7 +396,7 @@ section {
     font-size: 25px;
   }
   .socal {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   
@@ -460,7 +460,7 @@ section {
     font-size: 25px;
   }
   .socal {
-    font-size: 33px;
+    font-size: 20px;
   }
   .sidebar .nav li a span {
     display: none;
@@ -502,4 +502,5 @@ section {
   font-size: 20px;
 }
 }
+
 

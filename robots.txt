@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mostafaraihan.netlify.app/sitemap.xml

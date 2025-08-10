@@ -1,4 +1,4 @@
-# 🚀 Full Stack Web Development with Python & Django
+# 🚀Web Development with HTML, CSS, JavaScript, and Bootstrap.
 
 ---
 
@@ -8,15 +8,7 @@
 - **Email:** [mostafaraihan.bd@gmail.com](mailto:mostafaraihan.bd@gmail.com)  
 
 ---
-
-## 💡 Project Overview  
-This project showcases a modern full-stack web application built with **Python** and **Django**. It focuses on creating dynamic, secure, and scalable web apps with a smooth and responsive user interface.
-
----
-
 ## ⚙️ Features  
-- 🔥 Robust backend powered by the Django framework  
-- 🌐 RESTful API integration for seamless data handling  
 - 🎨 Clean and responsive frontend using HTML5, CSS3, and JavaScript  
 - 🗄️ Efficient database management with Django ORM  
 - 🔐 Secure user authentication and authorization system  
@@ -25,12 +17,8 @@ This project showcases a modern full-stack web application built with **Python**
 ---
 
 ## 🛠️ Technologies Used  
-- Python  
-- Django  
-- HTML5 & CSS3  
+- HTML 5
+- CSS 3 
 - JavaScript  
-- SQLite / PostgreSQL (choose your preferred database)  
+- Bootstrap 
 
----
-
-## 🚀 Getting Started

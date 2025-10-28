@@ -214,33 +214,16 @@ section {
   padding: 10px;
 }
 
+
 /* Skills grid */
 .skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
   width: 100%;
-}
-
-.skill {
-  width: 100%;
-  background-color: rgba(0, 247, 255, 1);
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  height: 100px;
-  text-align: center;
-  font-size: 25px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: default;
 }
 
 .skill:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(255, 0, 213, 0.6);
+  box-shadow: 0 0px 50px aqua;
   cursor: pointer;
 }
 
@@ -426,9 +409,7 @@ section {
 #co{
   padding-right: 0px;
 }
-.sqlite{
-  display: none;
-}
+
 }
 
 /* Mobile view (<768px) */
@@ -482,9 +463,6 @@ section {
     border-radius: 6px;
     text-align: center;
   }
-.sqlite{
-  display: none;
-}
   
 #ho{
   padding-right:0px;
@@ -505,13 +483,5 @@ section {
 #co{
   padding-right: 0px;
 }
-.psql{
-  font-size: 20px;
+
 }
-}
-
-
-
-
-
-

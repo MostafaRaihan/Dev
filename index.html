@@ -7,14 +7,14 @@
 
   <title>Mostafa Raihan | Building Next-Gen Websites & Applications</title>
   <meta name="description" content="Learn full-stack web development with Python & Django. Create scalable, secure web apps with hands-on projects by Mostafa Raihan." />
-  <meta name="keywords" content="Mostafa Raihan, full stack developer, python django, web development, backend, frontend, REST API, web apps, responsive design, secure apps, cloud deployment, tutorials, projects, programming, python, django, html, css, javascript, reactjs, bootstrap, sql, Raihan, #mostafaraihan" />
+  <meta name="keywords" content="Mostafa Raihan, full stack developer, python django, web development, backend, frontend, REST API, web apps, responsive design, secure apps, cloud deployment, tutorials, projects, programming, python, django, html, css, javascript, reactjs, bootstrap, sql" />
   <meta name="author" content="Mostafa Raihan" />
   
   <link rel="canonical" href="https://mostafaraihan.netlify.app/" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Full Stack Web Development with Python & Django | Mostafa Raihan" />
-  <meta property="og:description" content=" Full stack web development using Python and Django framework. Start building modern web applications today with Mostafa Raihan." />
+  <meta property="og:description" content="Full stack web development using Python and Django framework. Start building modern web applications today with Mostafa Raihan." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://mostafaraihan.netlify.app/" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/211196074?v=4" />
@@ -22,26 +22,25 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Full Stack Web Development with Python & Django | Mostafa Raihan" />
-  <meta name="twitter:description" content=" Full stack web development using Python and Django framework. Start building modern web applications today with Mostafa Raihan." />
+  <meta name="twitter:description" content="Full stack web development using Python and Django framework. Start building modern web applications today with Mostafa Raihan." />
   <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/211196074?v=4" />
 
   <meta name="robots" content="index, follow" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZYTHXD6LC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FZYTHXD6LC');
-</script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZYTHXD6LC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FZYTHXD6LC');
+  </script>
 
   <link rel="icon" href="image/favicon.webp" type="image/x-icon" />
 
   <!-- CSS -->
   <link href="external/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="external/style.css" />
-  
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -50,122 +49,158 @@
     referrerpolicy="no-referrer"
   />
 
- <!-- Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Mostafa Raihan",
-  "jobTitle": "Web Developer",
-  "url": "https://mostafaraihan.netlify.app/",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Mostafa Raihan"
-  },
-  "sameAs": [
-    "https://www.facebook.com/MostafaRaihanBD",
-    "https://github.com/MostafaRaihan",
-    "https://www.linkedin.com/in/mostafaraihanbd"
-  ]
-}
-</script>
-
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mostafa Raihan",
+    "jobTitle": "Web Developer",
+    "url": "https://mostafaraihan.netlify.app/",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Mostafa Raihan"
+    },
+    "sameAs": [
+      "https://www.facebook.com/MostafaRaihanBD",
+      "https://github.com/MostafaRaihan",
+      "https://www.linkedin.com/in/mostafaraihanbd"
+    ]
+  }
+  </script>
 </head>
 <body>
-  <div class="outer-wrapper"> 
+  <div class="outer-wrapper">
     <div class="wrapper">
+
+      <!-- Binary Canvas Background -->
       <canvas id="binaryCanvas" aria-hidden="true"></canvas>
 
-      <!--Sidebar Menu-->
-      <nav class="sidebar" aria-label="Primary">
+      <!-- Sidebar Navigation -->
+      <nav class="sidebar" aria-label="Primary navigation">
         <ul class="nav flex-column text-center">
-          <li><a href="#" onclick="showSection('home'); return false;" aria-current="page"><i class="fa-solid fa-house-chimney-user" aria-hidden="true" id="ho"></i><span>Home</span></a></li>
-          <li><a href="#" onclick="showSection('about'); return false;"><i class="fa-solid fa-file-contract" aria-hidden="true" id="ab"></i><span>About</span></a></li>
+          <li><a href="#" onclick="showSection('home'); return false;" aria-current="page"><i class="fa-solid fa-house-chimney-user" aria-hidden="true"></i><span>Home</span></a></li>
+          <li><a href="#" onclick="showSection('about'); return false;"><i class="fa-solid fa-file-contract" aria-hidden="true"></i><span>About</span></a></li>
           <li><a href="#" onclick="showSection('education'); return false;"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Education</span></a></li>
-          <li><a href="#" onclick="showSection('skills'); return false;"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true" id="sk"></i><span id="ski">Skills</span></a></li>
-          <li><a href="#" onclick="showSection('contact'); return false;"><i class="fa-solid fa-address-card" aria-hidden="true" id="co"></i><span>Contact</span></a></li>
+          <li><a href="#" onclick="showSection('skills'); return false;"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i><span>Skills</span></a></li>
+          <li><a href="#" onclick="showSection('contact'); return false;"><i class="fa-solid fa-address-card" aria-hidden="true"></i><span>Contact</span></a></li>
         </ul>
       </nav>
 
       <!-- Main Content -->
       <main class="content" role="main">
+        <!-- Home Section -->
         <section id="home" class="section" tabindex="-1">
-          <div class="row">
-            <div class="col-md-4 order-1 order-md-2 text-center">
-            <img 
-                  src="image/profile.png" 
-                  sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px" 
-                  alt="Mostafa Raihan" 
-                  title="Mostafa Raihan | Web Developer" 
-                  width="400" height="400"
-                  class="profile" 
-                  loading="lazy" 
-                />
+          <div class="row align-items-center">
+            <div class="col-md-4 text-center order-1 order-md-2">
+              <img 
+                src="image/profile.png"
+                sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px"
+                alt="Mostafa Raihan"
+                title="Mostafa Raihan | Web Developer"
+                width="400" height="400"
+                class="profile"
+                loading="lazy"
+              />
             </div>
             <div class="col-md-7 order-2 order-md-1">
               <div class="hometext">
                 <p>
-                  I’m Mostafa Raihan — a passionate Full Stack Web Developer who turns ideas into interactive, high-performance digital experiences.
-                  With expertise in Python, Django, HTML, CSS, and JavaScript, I craft responsive, user-friendly websites and web applications that blend functionality with stunning design.
+                  Hi, I’m Mostafa Raihan, a Full-Stack Web Developer passionate about building modern, scalable, and user-friendly web applications using Python Django and React/Next.js. I love writing clean, efficient code, optimizing performance, and turning ideas into impactful digital experiences.
                 </p>
               </div>
             </div>
           </div>
-          <div class="titel">
-            <div class="row">
-              <div class="col-12 name">
-                <h1><a href="https://www.linkedin.com/in/mostafaraihanbd/" target="_blank" rel="noopener noreferrer"><b>Mostafa Raihan</b></a></h1>
-                <h2>Web Developer</h2>
-              </div>
-            </div>
+          <div class="titel text-center mt-4">
+            <h1><a href="https://www.linkedin.com/in/mostafaraihanbd/" target="_blank" rel="noopener noreferrer"><b>Mostafa Raihan</b></a></h1>
+            <h2>Full Stack Web Developer</h2>
           </div>
         </section>
 
+        <!-- About Section -->
         <section id="about" class="section" tabindex="-1">
-          <p>
-            Hi, I'm Mostafa Raihan, a passionate Full Stack Web Developer with expertise in Python, Django, HTML, CSS, and JavaScript.
-            I design and build responsive, high-performance websites and web applications that are both functional and visually appealing.
-            <br /><br />
-            💻 Core Skills & Tools: Python, Django, REST API, HTML5, CSS3, JavaScript, PostgreSQL, SQLite, Git, GitHub, Netlify.
-            <br /><br />
-            🌟 What Sets Me Apart:
-            I combine clean, maintainable code with creative problem-solving to deliver solutions that meet real-world needs. My focus is always on user experience and scalability.
-          </p>
+          <p>Hi, <span style="color: aqua;">I’m Mostafa Raihan,</span> a Full-Stack Web Developer passionate about building modern, scalable, and user-friendly web applications. I work with Python Django on the backend and React/Next.js on the frontend to craft clean, efficient, and high-performing solutions. With a strong focus on clean code, performance optimization, and intuitive design, I love transforming ideas into interactive, impactful digital experiences. I’m always exploring new technologies, improving existing systems, and finding creative ways to make the web faster, smarter, and more engaging.</p>
+          <p>Tech I Love: Python · Django · React.js · Next.js · PostgreSQL · MySQL · Docker · Vercel · Git</p>
         </section>
 
+        <!-- Education Section -->
         <section id="education" class="section edu" tabindex="-1">
           <div class="row">
             <div class="col-10 edutext">
               <h4>Diploma in Computer Science</h4>
-              <p>Institute of Computer Science and Technology.</p>
-              <div>
+              <p><strong>Institute of Computer Science and Technology</strong></p>
+              <div class="edu-date">
                 <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
-                <p>2022 - Present</p>
+                <span>2022 - Present</span>
               </div>
               <ul>
                 <li>Final-year CST Diploma Student.</li>
-                <li>Strong grasp of programming and web development.</li>
-                <li>Hands-on experience with HTML, CSS, JS, React, Python, Django.</li>
+                <li>Strong grasp of programming and web development fundamentals.</li>
+                <li>Hands-on experience with HTML, CSS, JavaScript, React, Next.js, Python, and Django.</li>
                 <li>Committed to becoming a skilled full-stack developer through continuous learning.</li>
               </ul>
             </div>
           </div>
         </section>
 
+        <!-- Skills Section -->
         <section id="skills" class="section" tabindex="-1">
-          <div class="skills">
-            <div class="skill" tabindex="0"><i class="fa-brands fa-html5" aria-hidden="true"></i><p>HTML</p></div>
-            <div class="skill" tabindex="0"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><p>CSS</p></div>
-            <div class="skill" tabindex="0"><i class="fa-brands fa-js" aria-hidden="true"></i><p>JavaScript</p></div>
-            <div class="skill" tabindex="0"><i class="fa-brands fa-bootstrap" aria-hidden="true"></i><p>Bootstrap</p></div>
-            <div class="skill" tabindex="0"><i class="fa-brands fa-react" aria-hidden="true"></i><p>React</p></div>
-            <div class="skill" tabindex="0"><i class="fa-brands fa-python" aria-hidden="true"></i><p>Python</p></div>
-            <div class="skill" tabindex="0"><p>Django</p></div>
-            <div class="skill sqlite " tabindex="0"><p>MySQL</p></div>
-            <div class="skill psql" tabindex="0"><p>PostgreSQL</p></div>
+        <div class="container">
+          <div class="row text-center g-4"> <!-- g-4 adds gap between columns and rows -->
+            <div class="col-4 skill">
+              <i class="fa-brands fa-html5 fa-2x" aria-hidden="true"></i>
+              <p>HTML</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-css3-alt fa-2x" aria-hidden="true"></i>
+              <p>CSS</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-js fa-2x" aria-hidden="true"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-bootstrap fa-2x" aria-hidden="true"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-react fa-2x" aria-hidden="true"></i>
+              <p>React</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-react fa-2x" aria-hidden="true"></i>
+              <p>Next.js</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-python fa-2x" aria-hidden="true"></i>
+              <p>Python</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-python fa-2x" aria-hidden="true"></i>
+              <p>Django</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-solid fa-database fa-2x" aria-hidden="true"></i>
+              <p>MySQL</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-solid fa-database fa-2x" aria-hidden="true"></i>
+              <p>PostgreSQL</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-git-alt fa-2x" aria-hidden="true"></i>
+              <p>Git</p>
+            </div>
+            <div class="col-4 skill">
+              <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+              <p>GitHub</p>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
+        
+        <!-- Contact Section -->
         <section id="contact" class="section" tabindex="-1">
           <h4>Contact Us</h4>
           <div class="contact">
@@ -185,6 +220,7 @@
             </div>
             <div class="socal">
               <h4>Follow us</h4>
+              <br>
               <a href="https://www.facebook.com/MostafaRaihanBD/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i>Facebook</a>
               <a href="https://www.linkedin.com/in/mostafaraihanbd/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>Linkedin</a>
               <a href="https://github.com/MostafaRaihan/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
@@ -209,72 +245,50 @@
 
       // Active menu toggle
       const menuLinks = document.querySelectorAll('.sidebar .nav li a');
-      menuLinks.forEach(link => {
-        link.classList.remove('active');
-      });
+      menuLinks.forEach(link => link.classList.remove('active'));
       const activeLink = document.querySelector(`.sidebar .nav li a[onclick="showSection('${sectionId}'); return false;"]`);
       if (activeLink) activeLink.classList.add('active');
 
-      // Focus the section for accessibility
       target.focus();
     }
 
-    window.onload = () => {
-      showSection('home');
-    };
+    window.onload = () => showSection('home');
   </script>
 
   <script>
     const canvas = document.getElementById('binaryCanvas');
     const ctx = canvas.getContext('2d');
 
-    function resize() {
+    function resizeCanvas() {
       canvas.width = canvas.clientWidth;
       canvas.height = canvas.clientHeight;
     }
-    resize();
-    window.addEventListener('resize', resize);
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
 
-    const binaryChars = ['0', '1'];
-    const fontSize = 16;
-    let columns = Math.floor(canvas.width / fontSize);
-
-    let drops = new Array(columns).fill(1);
+    const binary = '01';
+    const fontSize = 14;
+    let columns = canvas.width / fontSize;
+    const drops = Array(Math.floor(columns)).fill(0);
 
     function draw() {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)'; // fading effect
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.fillStyle = '#00FF00'; // bright green binary color
+      ctx.fillStyle = '#0F0';
       ctx.font = fontSize + 'px monospace';
-
-      for(let i = 0; i < drops.length; i++) {
-        const text = binaryChars[Math.floor(Math.random() * binaryChars.length)];
+      for (let i = 0; i < drops.length; i++) {
+        const text = binary[Math.floor(Math.random() * binary.length)];
         ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
-        if(drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
           drops[i] = 0;
         }
-
         drops[i]++;
       }
+      requestAnimationFrame(draw);
     }
-    setInterval(draw, 50);
+    draw();
   </script>
-
-  <script src="external/bootstrap.bundle.min.js" defer></script>
-  
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
